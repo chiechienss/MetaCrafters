@@ -31,6 +31,8 @@ contract MyToken {
     function mint (address _Address, uint _Value) public{
         totalSupply += _Value;
         balances[_Address] += _Value;
+        checkBalance = "Token has been added Succesfully";
+
     }
 
 
